@@ -1,0 +1,12 @@
+image:
+  file: TODO
+tasks:
+  - name: Install Dependencies
+    command: rye sync
+  - name: Prepare Data
+    command: mv /tmp/motions /workspace/data/motions
+vscode:
+  extensions:
+    - ms-python.python
+    - ms-toolsai.jupyter
+    - charliermarsh.ruff
