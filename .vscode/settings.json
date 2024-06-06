@@ -1,0 +1,47 @@
+{
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.accessibilitySupport": "off",
+	"editor.bracketPairColorization.enabled": false,
+	"editor.codeActionsOnSave": {
+		"source.addMissingImports": "explicit",
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"editor.formatOnSave": true,
+	"editor.inlineSuggest.enabled": true,
+	"editor.insertSpaces": true,
+	"editor.largeFileOptimizations": false,
+	"editor.linkedEditing": true,
+	"editor.renderControlCharacters": true,
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.suggestSelection": "first",
+	"editor.tabSize": 2,
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff"
+	},
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"notebook.formatOnSave.enabled": true,
+	"notebook.codeActionsOnSave": {
+		"notebook.source.fixAll": "explicit",
+		"notebook.source.organizeImports": "explicit"
+	},
+	"python.analysis.indexing": true,
+	"python.analysis.typeCheckingMode": "basic",
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook"
+	},
+	"workbench.list.defaultFindMode": "filter",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"jupyter.widgetScriptSources": ["jsdelivr.com", "unpkg.com"],
+	"jupyter.runStartupCommands": ["%load_ext autoreload", "%autoreload 2"],
+	"python.venvPath": "./venv",
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.autoFormatStrings": true,
+	"python.analysis.diagnosticSeverityOverrides": {
+		"reportPrivateImportUsage": "none"
+	},
+	"notebook.experimental.variablesView": true
+}
